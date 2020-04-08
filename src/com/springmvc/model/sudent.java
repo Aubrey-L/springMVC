@@ -2,6 +2,19 @@ package com.springmvc.model;
 
 public class sudent {
     private Integer age;
+    private String name;
+    private Integer id;
+
+    public boolean isReceivePaper() {
+        return receivePaper;
+    }
+
+    public void setReceivePaper(boolean receivePaper) {
+        this.receivePaper = receivePaper;
+    }
+
+    private  boolean receivePaper;
+
 
     public Integer getAge() {
         return age;
@@ -26,9 +39,6 @@ public class sudent {
     public void setId(Integer id) {
         this.id = id;
     }
-
-    private String name;
-    private Integer id;
 
 
 }

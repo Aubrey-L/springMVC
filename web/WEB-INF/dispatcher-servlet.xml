@@ -11,13 +11,18 @@
         https://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <context:component-scan base-package="com.springmvc"></context:component-scan>
 
-    <!--<mvc:annotation-driven />-->
+
     <!--<mvc:default-servlet-handler/>-->
     <!--<mvc:resources location="/WEB-INF/html/" mapping="/html/**"/>-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+    <mvc:annotation-driven />
+    <!--<mvc:resources mapping="/jsp/**" location="/WEB-INF/jsp/"/>-->
+
+    <!--<mvc:resources mapping="/jsp/**" location="/WEB-INF/jsp/"/>-->
+
     <!--<mvc:resources mapping="/WEB-INF/jsp/" location="jsp/**"/>-->
 
 </beans>

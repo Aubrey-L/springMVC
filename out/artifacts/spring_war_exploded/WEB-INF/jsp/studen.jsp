@@ -29,6 +29,10 @@
             <td><form:input path="id" /></td>
         </tr>
         <tr>
+            <td><form:label path="receivePaper">订阅新闻？</form:label></td>
+            <td><form:checkbox path="receivePaper" /></td>
+        </tr>
+        <tr>
             <td colspan="2">
                 <input type="submit" value="提交表单"/>
             </td>

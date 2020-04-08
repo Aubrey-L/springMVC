@@ -28,9 +28,34 @@ public class helloworldHandler {
         model.addAttribute("name", student.getName());
         model.addAttribute("age", student.getAge());
         model.addAttribute("id", student.getId());
-
         return "index2";
     }
+    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    public String index() {
+        return "index3";
+    }
+
+    @RequestMapping(value = "/staticPage", method = RequestMethod.GET)
+    public String redirect() {
+        return "redirect:/final.html";
+    }
+
+    @RequestMapping(value = "/index2", method = RequestMethod.GET)
+    public String index1() {
+        return "index4";
+    }
+
+    @RequestMapping(value = "/redirect", method = RequestMethod.GET)
+    public String redirect1() {
+
+        return "redirect:finalPage";
+    }
+
+    @RequestMapping(value = "/finalPage", method = RequestMethod.GET)
+    public String finalPage() {
+        return "resText";
+    }
+
 
 
 
