@@ -38,5 +38,16 @@
         <jarDirectory url="file://$MODULE_DIR$/../jar/spring-framework-5.2.3.RELEASE/jar" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" exported="" name="commons-fileupload-1.4" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../jar/spring-framework-5.2.3.RELEASE/commons-io-2.6/commons-io-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>

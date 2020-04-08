@@ -29,6 +29,8 @@
           <element id="file-copy" path="$PROJECT_DIR$/../jar/spring-framework-5.2.3.RELEASE/jar/spring-instrument-5.2.3.RELEASE.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../jar/spring-framework-5.2.3.RELEASE/jar/spring-context-indexer-5.2.3.RELEASE.jar" />
           <element id="file-copy" path="$PROJECT_DIR$/../jar/spring-framework-5.2.3.RELEASE/jar/spring-context-support-5.2.3.RELEASE.jar" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+          <element id="file-copy" path="$PROJECT_DIR$/../jar/spring-framework-5.2.3.RELEASE/commons-io-2.6/commons-io-2.6.jar" />
         </element>
       </element>
     </root>
